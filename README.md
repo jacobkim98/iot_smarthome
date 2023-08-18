@@ -7,6 +7,7 @@ This document aims to utilize Deep-Sleep mode to minimize energy consumption for
 
 Usage:
 1. Start the Raspberry Pi and prepare to receive MQTT messages by using the following command:
+   
    mosquitto_sub -h 203.252.106.154 -t "iot/21901019" -u "iot" -P "csee1414"
 2. As the 'iot_lab1_sensor_node_final.ino' file contains Wi-Fi settings, adjust the Wi-Fi name and password according to your environment.
 3. Power up the ESP8266 module. The file to be executed is 'iot_lab1_sensor_node_final.ino'.
