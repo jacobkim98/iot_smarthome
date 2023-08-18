@@ -1,6 +1,7 @@
 # iot_smarthome
 
 Introduction:
+
 This document aims to utilize Deep-Sleep mode to minimize energy consumption for integrating ESP8266 into an IoT system. During program execution, temperature, humidity, and light data are published to a Raspberry Pi using the MQTT protocol.
 
 Usage:
